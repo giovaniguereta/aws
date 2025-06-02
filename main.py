@@ -5,7 +5,7 @@ import pg8000.native
 import logging
 
 app = Flask(__name__)
-log = logging.getLogger("werkzeug")
+log = logging.getLogger("werkzeug"
 log.disabled = True
 
 
